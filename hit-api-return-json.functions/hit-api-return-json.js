@@ -6,7 +6,8 @@ exports.main = (context, sendResponse) => {
   // Use axios to make a GET request to the Star Wars API https://swapi.dev/
   axios
     .get("https://swapi.dev/api/people/1/")
-    // Create secrets for authenticated APIs, and access them in like: process.env.API_KEY
+    // Create secrets for authenticated APIs, and access them like: process.env.API_KEY
+    // Scope the API_KEY secret to your function in serverless.json
     // https://developers.hubspot.com/docs/cms/features/serverless-functions#secrets
 
     .then(function(response) {
