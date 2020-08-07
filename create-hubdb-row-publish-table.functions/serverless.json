@@ -1,0 +1,12 @@
+{
+  "runtime": "nodejs12.x",
+  "version": "1.0",
+  "environment": {},
+  "secrets": ["API_KEY"],
+  "endpoints": {
+    "create-hubdb-row-publish-table": {
+      "method": "POST",
+      "file": "create-hubdb-row-publish-table.js"
+    }
+  }
+}
