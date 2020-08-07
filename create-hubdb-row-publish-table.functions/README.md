@@ -20,7 +20,7 @@ These values are then used in the function to create a HubDB table row with the 
 
 This function relies on:
 
-1. Creating a secret named `API_KEY` with the HubSpot API key for the destination account.
+1. Creating a [secret](https://developers.hubspot.com/docs/cms/features/serverless-functions#secrets) named `API_KEY` with the HubSpot API key for the destination account.
 2. Creating a HubDB table with the name `donations` that contains the columns: `name` (text), `amount` (number).
 
 ## Example use cases:
