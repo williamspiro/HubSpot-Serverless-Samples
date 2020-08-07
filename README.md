@@ -2,7 +2,7 @@
 
 HubSpot serverless function samples
 
-1. **[GET Hello, World](https://github.com/williamspiro/HubSpot-Serverless-Samples/tree/master/hello-world.js)** - A simple hello world endpoint.
+1. **[GET Hello, World](https://github.com/williamspiro/HubSpot-Serverless-Samples/tree/master/hello-world.functions)** - A simple hello world endpoint.
 
 2. **[GET Hit API and Return JSON](https://github.com/williamspiro/HubSpot-Serverless-Samples/tree/master/hit-api-return-json.functions)** - An endpoint that hits an external API, and returns the JSON response.
 
