@@ -1,4 +1,4 @@
-# Hit API and Return JSON
+# Hit API and Return JSON (GET)
 
 A simple function that hits the Star Wars API, and returns the JSON response from the external API.
 

@@ -1,4 +1,4 @@
-# Create HubDB Table Row and Publish Table
+# Create HubDB Table Row and Publish Table (POST)
 
 A serverless function that creates a [HubDB](https://developers.hubspot.com/docs/cms/features/hubdb) table row based on request body data, and publishes the HubDB table so this data is live. This endpoint accepts a POST request with some data, that is used in the function.
 

@@ -1,4 +1,4 @@
-# Hello World
+# Hello, World! (GET)
 
 A simple function that returns "Hello, World!", and `console.log`s "Hello, World!". This function is designed to get you up and running with your function as quick as possible, showing how to return data from your function, and log data as part of the function execution.
 
