@@ -18,10 +18,20 @@ exports.main = (context, sendResponse) => {
       console.log("Data received from the search API:", response.data);
 
       // sendResponse is what you will send back to services hitting your serverless function
-      sendResponse({ body: { response: response.data } });
+      sendResponse({
+        body: {
+          response: response.data
+        },
+        statusCode: 200
+      });
     })
     .catch(function(error) {
       // Handle error
-      sendResponse({ body: { error: error } });
+      sendResponse({
+        body: {
+          error: error
+        },
+        statusCode: 500
+      });
     });
 };

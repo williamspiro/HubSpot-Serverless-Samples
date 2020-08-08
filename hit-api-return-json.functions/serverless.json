@@ -2,7 +2,7 @@
   "runtime": "nodejs12.x",
   "version": "1.0",
   "environment": {},
-  "secrets": [],
+  "secrets": ["API_KEY"],
   "endpoints": {
     "hit-api-return-json": {
       "method": "GET",
