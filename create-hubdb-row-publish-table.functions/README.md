@@ -4,7 +4,7 @@ A serverless function that creates a [HubDB](https://developers.hubspot.com/docs
 
 ## Hitting the endpoint
 
-The endpoint is executed with the POST request method, and requires sending JSON data in the request body like:
+The endpoint is executed with the POST request method, and requires sending JSON data in the request body:
 
 ```
 POST /_hcms/api/create-hubdb-row-publish-table
@@ -12,6 +12,25 @@ POST /_hcms/api/create-hubdb-row-publish-table
     "name": "Brian",
     "amount": 100
 }
+```
+
+In vanilla JavaScript, this might look like:
+
+```
+var data = {
+    "name": "Will",
+    "amount": 50
+};
+
+fetch("/_hcms/api/create-hubdb-row-publish-table", {
+    method: "POST",
+    body: JSON.stringify(data),
+    headers: {
+      'Content-Type': 'application/json'
+    },
+}).then(res => {
+    console.log(res);
+});
 ```
 
 These values are then used in the function to create a HubDB table row with the submitted information.
