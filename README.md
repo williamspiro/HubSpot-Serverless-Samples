@@ -1,6 +1,6 @@
 # HubSpot-Serverless-Samples
 
-HubSpot serverless function samples
+HubSpot serverless function samples. To utilize a function, upload the entire `.functions` file, and read the `README.md` for details on configuration.
 
 1. **[Hello, World! (GET)](https://github.com/williamspiro/HubSpot-Serverless-Samples/tree/master/hello-world.functions)** - A simple endpoint that returns "Hello, World!".
 
