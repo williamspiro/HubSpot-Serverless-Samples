@@ -6,5 +6,10 @@ exports.main = (context, sendResponse) => {
   console.log("Hello, World!");
 
   // sendResponse is what you will send back to services hitting your serverless function
-  sendResponse({ body: "Hello, World!", statusCode: 200 });
+  sendResponse({
+    body: {
+      response: "Hello, World!"
+    },
+    statusCode: 200
+  });
 };
