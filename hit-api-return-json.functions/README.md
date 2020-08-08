@@ -4,10 +4,21 @@ A simple function that hits the Star Wars API, and returns the JSON response fro
 
 ## Hitting the endpoint
 
-The endpoint is executed with the GET request method, like:
+The endpoint is executed with the GET request method:
 
 ```
 GET /_hcms/api/hit-api-return-json
+```
+
+In vanilla JavaScript, this might look like:
+
+```
+fetch('/_hcms/api/hit-api-return-json')
+.then(response => response.json())
+.then(data => {
+    console.log(data)
+})
+.catch(error => console.error(error))
 ```
 
 ## Configuration
